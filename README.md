@@ -1,2 +1,2 @@
 # articles
-KODD-K Articles portal
+CODD-K Articles portal
