@@ -3,10 +3,10 @@ author : AUTHOR NAME
 date : 2019-07-02
 meta : true
 math : false
-title : "Hugo-Tufte Features"
-subtitle : "Fancy Subtitle"
+title : "An example page for the articles"
+subtitle : "Some set of articles"
 toc : true
-categories : ["mathjax", "latex", "tufte-css"]
+categories : ["COVID-19", "India", "Data Stories"]
 layout: article
 plotly: true
 ---
@@ -33,6 +33,30 @@ Some example text
 ### Blockquotes
 Some blockquotes.  But first, we try to manually cite via
 <cite>This is between cite tags</cite>
+
+
+{{< rawhtml >}}
+<figure class="iframe-wrapper">
+  <div id="cf865098-c0b0-4c6b-8233-ad3266ea0de5" class="plotly-graph-div" style="height:600px; width:600px;"></div>
+            <script type="text/javascript">
+                
+                    window.PLOTLYENV=window.PLOTLYENV || {};
+                    
+                if (document.getElementById("cf865098-c0b0-4c6b-8233-ad3266ea0de5")) {
+                    Plotly.newPlot(
+                        'cf865098-c0b0-4c6b-8233-ad3266ea0de5',
+                        [{"hoverinfo": "none", "marker": {"color": ["rgba(77, 0, 1, 1)", "rgba(92, 17, 19, 1)", "rgba(109, 33, 33, 1)", "rgba(124, 48, 47, 1)", "rgba(139, 64, 62, 1)", "rgba(150, 79, 74, 1)", "rgba(157, 93, 83, 1)", "rgba(161, 105, 89, 1)", "rgba(165, 117, 94, 1)", "rgba(168, 129, 99, 1)", "rgba(172, 141, 104, 1)", "rgba(176, 154, 113, 1)", "rgba(181, 167, 127, 1)", "rgba(187, 177, 144, 1)", "rgba(192, 186, 162, 1)", "rgba(198, 194, 179, 1)"]}, "orientation": "h", "outsidetextfont": {"color": "#636363", "family": "Cabin", "size": 9}, "text": ["588", "1139", "1814", "1838", "2005", "2613", "2915", "3190", "3441", "3768", "3831", "4731", "6014", "6554", "9507", "11628"], "textposition": "outside", "type": "bar", "width": 0.7, "x": [588, 1139, 1814, 1838, 2005, 2613, 2915, 3190, 3441, 3768, 3831, 4731, 6014, 6554, 9507, 11628], "y": ["Andhra Pradesh", "Bihar", "Delhi", "Gujarat", "Haryana", "Jammu and Kashmir", "Karnataka", "Kerala", "Madhya Pradesh", "Maharashtra", "Odisha", "Punjab", "Rajasthan", "Tamil Nadu", "Uttar Pradesh", "West Bengal"]}],
+                        {"annotations": [{"align": "right", "font": {"color": "#636363", "size": 9}, "showarrow": false, "text": "As of date: May 28", "x": 0.999, "xref": "paper", "y": -0.06, "yref": "paper"}], "autosize": false, "font": {"color": "#636363", "family": "Cabin", "size": 11}, "height": 600, "hoverlabel": {"bgcolor": "white", "bordercolor": "#BDBDBD", "font": {"color": "#636363", "family": "Cabin Regular"}}, "margin": {"b": 40, "l": 70, "r": 10, "t": 60}, "plot_bgcolor": "white", "template": {"data": {"bar": [{"error_x": {"color": "#2a3f5f"}, "error_y": {"color": "#2a3f5f"}, "marker": {"line": {"color": "#E5ECF6", "width": 0.5}}, "type": "bar"}], "barpolar": [{"marker": {"line": {"color": "#E5ECF6", "width": 0.5}}, "type": "barpolar"}], "carpet": [{"aaxis": {"endlinecolor": "#2a3f5f", "gridcolor": "white", "linecolor": "white", "minorgridcolor": "white", "startlinecolor": "#2a3f5f"}, "baxis": {"endlinecolor": "#2a3f5f", "gridcolor": "white", "linecolor": "white", "minorgridcolor": "white", "startlinecolor": "#2a3f5f"}, "type": "carpet"}], "choropleth": [{"colorbar": {"outlinewidth": 0, "ticks": ""}, "type": "choropleth"}], "contour": [{"colorbar": {"outlinewidth": 0, "ticks": ""}, "colorscale": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]], "type": "contour"}], "contourcarpet": [{"colorbar": {"outlinewidth": 0, "ticks": ""}, "type": "contourcarpet"}], "heatmap": [{"colorbar": {"outlinewidth": 0, "ticks": ""}, "colorscale": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]], "type": "heatmap"}], "heatmapgl": [{"colorbar": {"outlinewidth": 0, "ticks": ""}, "colorscale": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]], "type": "heatmapgl"}], "histogram": [{"marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "histogram"}], "histogram2d": [{"colorbar": {"outlinewidth": 0, "ticks": ""}, "colorscale": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]], "type": "histogram2d"}], "histogram2dcontour": [{"colorbar": {"outlinewidth": 0, "ticks": ""}, "colorscale": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]], "type": "histogram2dcontour"}], "mesh3d": [{"colorbar": {"outlinewidth": 0, "ticks": ""}, "type": "mesh3d"}], "parcoords": [{"line": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "parcoords"}], "pie": [{"automargin": true, "type": "pie"}], "scatter": [{"marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "scatter"}], "scatter3d": [{"line": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "scatter3d"}], "scattercarpet": [{"marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "scattercarpet"}], "scattergeo": [{"marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "scattergeo"}], "scattergl": [{"marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "scattergl"}], "scattermapbox": [{"marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "scattermapbox"}], "scatterpolar": [{"marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "scatterpolar"}], "scatterpolargl": [{"marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "scatterpolargl"}], "scatterternary": [{"marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "scatterternary"}], "surface": [{"colorbar": {"outlinewidth": 0, "ticks": ""}, "colorscale": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]], "type": "surface"}], "table": [{"cells": {"fill": {"color": "#EBF0F8"}, "line": {"color": "white"}}, "header": {"fill": {"color": "#C8D4E3"}, "line": {"color": "white"}}, "type": "table"}]}, "layout": {"annotationdefaults": {"arrowcolor": "#2a3f5f", "arrowhead": 0, "arrowwidth": 1}, "coloraxis": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "colorscale": {"diverging": [[0, "#8e0152"], [0.1, "#c51b7d"], [0.2, "#de77ae"], [0.3, "#f1b6da"], [0.4, "#fde0ef"], [0.5, "#f7f7f7"], [0.6, "#e6f5d0"], [0.7, "#b8e186"], [0.8, "#7fbc41"], [0.9, "#4d9221"], [1, "#276419"]], "sequential": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]], "sequentialminus": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]]}, "colorway": ["#636efa", "#EF553B", "#00cc96", "#ab63fa", "#FFA15A", "#19d3f3", "#FF6692", "#B6E880", "#FF97FF", "#FECB52"], "font": {"color": "#2a3f5f"}, "geo": {"bgcolor": "white", "lakecolor": "white", "landcolor": "#E5ECF6", "showlakes": true, "showland": true, "subunitcolor": "white"}, "hoverlabel": {"align": "left"}, "hovermode": "closest", "mapbox": {"style": "light"}, "paper_bgcolor": "white", "plot_bgcolor": "#E5ECF6", "polar": {"angularaxis": {"gridcolor": "white", "linecolor": "white", "ticks": ""}, "bgcolor": "#E5ECF6", "radialaxis": {"gridcolor": "white", "linecolor": "white", "ticks": ""}}, "scene": {"xaxis": {"backgroundcolor": "#E5ECF6", "gridcolor": "white", "gridwidth": 2, "linecolor": "white", "showbackground": true, "ticks": "", "zerolinecolor": "white"}, "yaxis": {"backgroundcolor": "#E5ECF6", "gridcolor": "white", "gridwidth": 2, "linecolor": "white", "showbackground": true, "ticks": "", "zerolinecolor": "white"}, "zaxis": {"backgroundcolor": "#E5ECF6", "gridcolor": "white", "gridwidth": 2, "linecolor": "white", "showbackground": true, "ticks": "", "zerolinecolor": "white"}}, "shapedefaults": {"line": {"color": "#2a3f5f"}}, "ternary": {"aaxis": {"gridcolor": "white", "linecolor": "white", "ticks": ""}, "baxis": {"gridcolor": "white", "linecolor": "white", "ticks": ""}, "bgcolor": "#E5ECF6", "caxis": {"gridcolor": "white", "linecolor": "white", "ticks": ""}}, "title": {"x": 0.05}, "xaxis": {"automargin": true, "gridcolor": "white", "linecolor": "white", "ticks": "", "title": {"standoff": 15}, "zerolinecolor": "white", "zerolinewidth": 2}, "yaxis": {"automargin": true, "gridcolor": "white", "linecolor": "white", "ticks": "", "title": {"standoff": 15}, "zerolinecolor": "white", "zerolinewidth": 2}}}, "title": {"font": {"size": 15}, "text": "Tests per million for COVID-19 in Indian States", "x": 0.014, "xanchor": "left", "y": 0.96}, "width": 600, "xaxis": {"color": "#BDBDBD", "gridcolor": "beige", "nticks": 5, "showgrid": false, "showticklabels": false, "tickangle": 0, "tickformat": "g"}, "yaxis": {"color": "#737373", "showgrid": false, "tickcolor": "rgba(0,0,0,0)", "ticks": "outside"}},
+                        {"responsive": true}
+                    )
+                };
+                
+            </script>
+        </div>
+</figure>
+
+{{< /rawhtml >}}
+
 
 {{% blockquote cite="www.shawnohare.com" footer="Shawn O'Hare" %}}
 This is a blockquote with two paragraphs, that employs the
@@ -69,7 +93,7 @@ Below we have an example of a regular width figure.
 
 And now we exhibit a margin figure.
 {{< figure
-  src="https://edwardtufte.github.io/tufte-css/img/rhino.png"
+  src="tpm5.png"
   class="class param"
   type="margin"
   label="mn-rhino"
@@ -85,7 +109,7 @@ And now we exhibit a margin figure.
 
 Below is a full-width figure.
 {{< figure
-  src="https://edwardtufte.github.io/tufte-css/img/napoleons-march.png"
+  src="tpm-vs-percentcases.png"
   type="full"
   label="mn-napoleonic-wars"
   title="Napoleonic wars"
@@ -120,8 +144,6 @@ Climb a tree, wait for a fireman jump to fireman then scratch his face sleep on 
                 
             </script>
         </div>
-
-<figcaption>Figure caption here.</figcaption>
 </figure>
 
 
