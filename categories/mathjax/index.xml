@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>mathjax on CODD-K Articles</title><link>/categories/mathjax/</link><description>Recent content in mathjax on CODD-K Articles</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 02 Jul 2019 00:00:00 +0000</lastBuildDate><atom:link href="/categories/mathjax/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo-Tufte Features</title><link>/articles/2020/07/20200703_covid19/</link><pubDate>Tue, 02 Jul 2019 00:00:00 +0000</pubDate><guid>/articles/2020/07/20200703_covid19/</guid><description>&lt;p>This is a quick demonstration post. It serves as an example of the features
+of this theme.&lt;/p>
+&lt;section>
+&lt;h2 id="a-bit-about-mathematics">A Bit About Mathematics&lt;/h2>
+&lt;div class="epigraph">
+&lt;blockquote>
+&lt;p>
+This is an example of an epigraph to start the beginning of a section.
+&lt;/p>
+&lt;footer>
+Shawn O&amp;#39;Hare,
+&lt;cite>Math is Fun&lt;/cite>
+&lt;/footer>
+&lt;blockquote>
+&lt;/div></description></item></channel></rss>
