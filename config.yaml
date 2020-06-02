@@ -35,12 +35,7 @@ menu:
       url: /categories
   footer:
     - name: ''
-      pre: '<i class=''fa fa-github fa-2x''></i> '
-      weight: -100
-      identifier: github
-      url: 'https://github.com/shawnohare/hugo-tufte'
-    - name: ''
       pre: '<i class=''fa fa-twitter fa-2x''></i> '
       weight: -90
       identifier: twitter
-      url: 'https://twitter.com'
+      url: 'https://twitter.com/coddkorg'
