@@ -22,6 +22,13 @@ jobs:
 
       - name: Build
         run: hugo --minify
+      
+      - name: Commit and push changes if files have changed
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Updating the website
+          commit_user_name: GitHub Action
+          commit_user_email: action@github.com
 
       #- name: Deploy
       #  uses: peaceiris/actions-gh-pages@v3
