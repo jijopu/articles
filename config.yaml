@@ -7,6 +7,10 @@ publishdir: public
 builddrafts: true
 canonifyurls: true
 theme: codd-k
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
 taxonomies:
   category: categories
   group: groups

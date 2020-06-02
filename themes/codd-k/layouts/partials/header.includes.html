@@ -3,6 +3,11 @@
   {{ partial "math.html" . }}
 {{ end }}
 
+<!-- Load MathJax, if necessary. -->
+{{ if or .Params.plotly .IsHome }}
+  {{ partial "plotly.html" . }}
+{{ end }}
+
 <!-- Syntax highlighting -->
 <!-- {{ partial "highlight.html" . }} -->
 
@@ -20,6 +25,8 @@
 <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface"> -->
 <!-- <link href='//fonts.googleapis.com/css?family=Raleway:400,200,100,700,300,500,600,800' rel='stylesheet' type='text/css'> -->
 
+<link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
+
 <!-- Font Awesome -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
@@ -27,3 +34,5 @@
 <link rel="stylesheet" href="{{ "/css/tufte.css" | absURL }}">
 <link rel="stylesheet" href="{{ "/css/hugo-tufte.css" | absURL }}">
 <link rel="stylesheet" href="{{ "/css/hugo-tufte-override.css" | absURL }}">
+
+
