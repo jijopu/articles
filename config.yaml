@@ -3,7 +3,7 @@ languageCode: en-us
 title: CODD-K Articles
 contentdir: content
 layoutdir: layouts
-publishdir: public
+publishdir: docs
 builddrafts: true
 canonifyurls: true
 theme: codd-k
