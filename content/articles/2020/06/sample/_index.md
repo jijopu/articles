@@ -90,7 +90,7 @@ But in terms of tests per 1,000 people - a better way to find out what is the pr
 
 {{< rawhtml >}}
 <figure class="fullwidth">
-      <div id="949a54ba-7c2d-4103-9546-14c842e7e9f1" class="plotly-graph-div" style="height:100%; width:100%;"></div>
+      <div id="949a54ba-7c2d-4103-9546-14c842e7e9f1" class="plotly-graph-div" style="height:600px; width:100%;"></div>
             <script type="text/javascript">
                 
                     window.PLOTLYENV=window.PLOTLYENV || {};
