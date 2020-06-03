@@ -64,6 +64,7 @@ As we enter June of 2020, marking the 6th month into our global confrontation ag
   alt="alt"
   link="link"
  >}}
+ 
 But in terms of tests per 1,000 people - a better way to find out what is the proportion of people who are being tested, India ranks relatively low among countries with the most cases. This is understandable, considering India's high population compared to these countries. In terms of total number of tests, India ranks third world-wide. More than 1,00,000 tests were conducted in the last seven days. Only the U.S. (3.7 lakh tests) and Russia (2.66 lakh) have conducted more tests overall in the last week. Clearly India has been ramping up its test rate in overall terms. However, when testing rate is considered with respect to population, Kerala had a high test rate initially, which had slowed down over time. Testing at a high rate early helped the State reduce its case load significantly, before the influx of migrants from abroad and other States.
 
 {{< rawhtml >}}
