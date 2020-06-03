@@ -19,6 +19,7 @@ This is a project organised by CODD-K.
 {{% epigraph pre="Leirion Gaylor Baird" %}}
 We face an extraordinary moment in our history, one that is bringing with it extraordinary disruption to our daily lives.
 {{% /epigraph %}}
+As we enter June of 2020, marking the 6th month into our global confrontation against the novel coronavirus that causes a respiratory disease which the WHO have termed as COVID-19, numerous lives have already succumbed to the life-threatening sickness. It started spreading from Wuhan, China during the final stages of 2019, and the uncertainty the pandemic has brought into the minds of the citizens since then in variety of aspects, is emanating a discomfort spell which when left unattended becomes as deadly as the virus itself. Therefore, this website is built for the public with the sole intention of spreading awareness and insights along with our analysis about the disease spread in India, with data as accurate as possible.
 ### Cumulative cases
 
 {{< rawhtml >}}
