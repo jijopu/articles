@@ -28,7 +28,7 @@ Test positivity rate is the best indicator for any infectious disease spread. Th
 The test positivity rate of India has been steadily declining since April 23 from 4.4%. This is in sharp contrast to the first half of the month when the test positivity rate was peaking. The state-wise data, however, still remain a matter of concern with some states exhibiting a rate twice the all-India average. Madhya Pradesh has displaced Delhi from the top spot with the highest test positivity rate of 7.6% - exactly double than the national rate of 3.8%. Delhi’s test positivity rate, which was as high as 10% in mid-April, fell to 7.3%.
 {{< rawhtml >}}
 <figure class="fullwidth">
-     <div id="474abd8c-f859-4d47-ba4b-29a2d0e94795" class="plotly-graph-div" style="height:600px; width:100%;"></div>
+     <div id="474abd8c-f859-4d47-ba4b-29a2d0e94795" class="plotly-graph-div" style="height:600px; width:1280px;"></div>
             <script type="text/javascript">
                 
                     window.PLOTLYENV=window.PLOTLYENV || {};
@@ -222,7 +222,6 @@ Kerala's relatively better performance is highlighted in this graph that compare
 </figure>
 {{< /rawhtml >}}
 {{< section "end" >}}
-
 {{< section "begin" >}}
 ## Conclusion
 
