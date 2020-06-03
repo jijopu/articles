@@ -23,7 +23,7 @@ We face an extraordinary moment in our history, one that is bringing with it ext
 
 {{< rawhtml >}}
 <figure class="fullwidth">
-     <div id="474abd8c-f859-4d47-ba4b-29a2d0e94795" class="plotly-graph-div" style="height:100%; width:100%;"></div>
+     <div id="474abd8c-f859-4d47-ba4b-29a2d0e94795" class="plotly-graph-div" style="height:600px; width:100%;"></div>
             <script type="text/javascript">
                 
                     window.PLOTLYENV=window.PLOTLYENV || {};
