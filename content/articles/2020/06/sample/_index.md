@@ -16,11 +16,14 @@ This is a project organised by CODD-K.
 {{< section "begin" >}} 
 ## Introduction
 
-{{% epigraph pre="Leirion Gaylor Baird" %}}
+{{% epigraph pre="Leirion Gaylor Baird - Mayor, Lincoln" %}}
 We face an extraordinary moment in our history, one that is bringing with it extraordinary disruption to our daily lives.
 {{% /epigraph %}}
-As we enter June of 2020, marking the 6th month into our global confrontation against the novel coronavirus that causes a respiratory disease which the WHO have termed as COVID-19, numerous lives have already succumbed to the life-threatening sickness. It started spreading from Wuhan, China during the final stages of 2019, and the uncertainty the pandemic has brought into the minds of the citizens since then in variety of aspects, is emanating a discomfort spell which when left unattended becomes as deadly as the virus itself. Therefore, this website is built for the public with the sole intention of spreading awareness and insights along with our analysis about the disease spread in India, with data as accurate as possible.
-### Cumulative cases
+As we enter June of 2020, marking the 6th month into our global confrontation against the novel coronavirus that causes a respiratory disease which the WHO have termed as COVID-19, numerous lives have already succumbed to the life-threatening sickness. It started spreading from Wuhan, China during the final stages of 2019, and the uncertainty the pandemic has brought into the minds of the citizens since then in variety of aspects, is emanating a discomfort spell which when left unattended becomes as deadly as the virus itself. Therefore, this website is built for the public with the sole intention of spreading awareness and insights along with my subtle analysis about the disease spread in India, with data as accurate as possible.
+{{< section "end" >}}
+
+{{< section "begin" >}} 
+## Testing and Positive cases
 
 {{< rawhtml >}}
 <figure class="fullwidth">
@@ -44,3 +47,22 @@ As we enter June of 2020, marking the 6th month into our global confrontation ag
 {{< /rawhtml >}}
 {{< section "end" >}}
 
+
+{{< section "begin" >}}
+## Tests per million
+
+But in terms of tests per 1,000 people - a better way to find out what is the proportion of people who are being tested, India ranks relatively low among countries with the most cases. This is understandable, considering India's high population compared to these countries. In terms of total number of tests, India ranks third world-wide. More than 1,00,000 tests were conducted in the last seven days. Only the U.S. (3.7 lakh tests) and Russia (2.66 lakh) have conducted more tests overall in the last week. Clearly India has been ramping up its test rate in overall terms. However, when testing rate is considered with respect to population, Kerala had a high test rate initially, which had slowed down over time. Testing at a high rate early helped the State reduce its case load significantly, before the influx of migrants from abroad and other States.
+{{< figure
+  src="tpm5.png"
+  class="class param"
+  type="margin"
+  label="tpm"
+  title="Tests per million"
+  label="mn-export-import"
+  caption="It's the total tests conducted per population in million."
+  attr="Image"
+  attrlink="attribute link"
+  alt="alt"
+  link="link"
+ >}}
+{{< section "end" >}}
