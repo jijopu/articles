@@ -12,3 +12,10 @@ plotly: true
 ---
 
 This is the first trial of COVID-19 interactive webpage.
+
+
+{{< section "begin" >}} 
+## Introduction
+
+This is a sample webpage made by Hritwik NE to test the plots, its placements with some contents.
+{{< section "end" >}}
