@@ -213,7 +213,9 @@ When having to evaluate whether a region must continue its restrictive measures 
         </div>
  </figure>
  {{< /rawhtml >}}
+ 
 The test-positivity rate is most commonly employed to trace the extent of rare diseases and if the same proportion of a population is being tested over a period, the contagiousness of a disease can also be calculated with the help of this parameter.
+
 {{< section "end" >}}
 {{< section "begin" >}}
 ## Tests per million
@@ -231,7 +233,8 @@ The test-positivity rate is most commonly employed to trace the extent of rare d
   alt="alt"
   link="link"
  >}}
-While it remains true that the number of fatalities has very little to do with low testing rates, countries that effectively tested more people have been able to ease lockdowns earlier than the ones that tested less. Consequently, the lackluster stats of India in terms of testing metrics might not directly have an impact on the mortality rate as one would expect. However, the prolonged lockdown and increment in the severity of the virus spread in certain states despite the social distancing measures could be a linear consequence of a lower testing rate. Accordingly, discovering tests done per a million people is in theory a more dependable approach to determine the proportion of people who are being tested. Nonetheless, the parameter fails to account for the size of the outbreak in the respective states. India ranks lower in terms of tests done per million when compared to other countries, although it's reasonable given the higher population relative to other nations. 
+{{% marginnote "Note" %}}India ranks lower in terms of tests done per million when compared to other countries, although it's reasonable given the higher population relative to other nations.{{% /marginnote %}}
+While it remains true that the number of fatalities has very little to do with low testing rates, countries that effectively tested more people have been able to ease lockdowns earlier than the ones that tested less. Consequently, the lackluster stats of India in terms of testing metrics might not directly have an impact on the mortality rate as one would expect. However, the prolonged lockdown and increment in the severity of the virus spread in certain states despite the social distancing measures could be a linear consequence of a lower testing rate. Accordingly, discovering tests done per a million people is in theory a more dependable approach to determine the proportion of people who are being tested. Nonetheless, the parameter fails to account for the size of the outbreak in the respective states.
 {{< rawhtml >}}
 <figure class="fullwidth">
   <div id="969b7b1f-9449-4e98-8c65-03c2601477d8" class="plotly-graph-div" style="height:600px; width:100%;"></div>
@@ -252,6 +255,7 @@ While it remains true that the number of fatalities has very little to do with l
         </div>
 </figure>
 {{< /rawhtml >}}
+
 With strict social distancing measures implemented in the initial stages of virus spread, the intention of states was to slow down the pace of contagion. However, it's not possible to gain control over the infection just by shutting down the whole country. Rather accelerated and perpetual testing are the chief factors that actually count during the culmination of a lockdown period. The state of Kerala had a high test rate initially, which gradually declined over time. However, their early and effective judgments upheld the state's control over the caseload significantly.
 
 The chart below renders the positivity rate against tests per million. This is particularly significant as it provides us with an insight on the measure of tests done while keeping us informed of the outbreak in the state. Plus the sizes of the bubbles in the plot are in proportion to cases recorded per million.
@@ -275,7 +279,9 @@ The chart below renders the positivity rate against tests per million. This is p
         </div>
 </figure>
 {{< /rawhtml >}}
+
 A quick glance over the diagram suggests that the Northern state of Jammu and Kashmir has done really well, keeping the bar of the percentage of positives to a low figure of 1, while also leading in terms of tests per million. However, Maharashtra has a relatively lower count for the parameter in the x-axis with a dramatically increased percentage in positive cases which portrays the enhanced outbreak in the region. Nevertheless, Kerala is one of the states that managed to keep the positivity rate to a low figure of 2% while also testing way lesser in contrast to the above-mentioned states. Although the practice of testing a lower set of people is not an accepted regime when one eye to flatten the curve while dealing with a pandemic, brisk and effective judgments when added with heavy contract tracing the state implemented aided them to recover from the infection swiftly, while also keeping economy balanced for tests.
+
 {{< section "end" >}}
 {{< section "begin" >}}
 ## Tests per Positive Cases
@@ -292,9 +298,7 @@ A quick glance over the diagram suggests that the Northern state of Jammu and Ka
   alt="alt"
   link="link"
  >}}
-
-Kerala's relatively better performance is highlighted in this graph that compares tests per case over time. Maharashtra, Gujarat, Delhi and M.P. fare among the worse off States in this metric with relatively higher cases and lower tests per confirmed case. Countries affected by the virus are divided into two groups (lower - marked in green, and higher case loads - marked in red). Evidently most countries that have tested more over time have reduced their case loads significantly compared to those that have not tested enough. Despite having among the most stringent lockdowns, cases in India have continued to rise steadily and fast. Clearly, the lockdown has not had as major an impact as high testing rates have, for other countries that have managed to flatten the infection curves.
-
+Tests conducted for each case is also a useful metric to compare each state. Inspecting the graph, it's evident that Andhra Pradesh stands above all as their tests per case curve show a positive linear curve. Higher values for tests per case indicates an improved condition as more tests are required to find a positive case. Karnataka comes up next when it comes to keeping the tests per case ratio healthy.
 {{< rawhtml >}}
 <figure class="fullwidth">
              <div id="39c7ff52-7585-4ddd-a390-56d03a4bef94" class="plotly-graph-div" style="height:600px; width:100%;"></div>
