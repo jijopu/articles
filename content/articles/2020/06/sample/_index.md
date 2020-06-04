@@ -178,7 +178,7 @@ The enormous number of cases announced in the country in spite of severe and ear
 {{< /rawhtml >}}
 {{< section "end" >}}
 {{< section "begin" >}}
-## Test Positivity Rate
+## Test-Positivity Rate
 {{< figure
   src="tpm5.png"
   class="class param"
@@ -192,9 +192,7 @@ The enormous number of cases announced in the country in spite of severe and ear
   alt="alt"
   link="link"
  >}}
- 
-The positivity rate is one of the parameters employed by governments to assess whether a state is fit to be opened for normal economic activities or should continue to remain under lockdown. Case fatality and recovery rate, the latter read as a ratio with active cases, are other indicators. High mortality and positivity rates are indicative that a state is only testing the sickest and not screening enough people for Covid-19 symptoms. Sufficient teting is the key to containment of the pandemic. Due to limited testing, as of March 2020 no countries had reliable data on the prevalence of the virus in their population. 
-
+When having to evaluate whether a region must continue its restrictive measures or ease up the lockdown, one of the key parameters that gets scrutinized is the test-positivity rate in the region. Examining the charts plotted for the positivity rate, we understand that the state of Maharashtra records a high figure of 14%. Such a high test-positivity rate proposes that the state is not testing everyone who has been infected with the virus, for it shows that hospitals are testing only people who exhibit a very high probability of carrying the virus. This also suggests that citizens with symptoms ranging from mild to none are not accounted for testing. States which adopt a much more extensive testing strategy are expected to have a significantly lower positivity rate as they come across numerous people who aren't infected with the deadly virus. While a few states struggle with higher percent of positivity rate, Andhra Pradesh has efficiently brought it down below 1%.
 {{< rawhtml >}}
 <figure class="fullwidth">
      <div id="763f6f52-5907-4666-a06e-113552bbeb20" class="plotly-graph-div" style="height:600px; width:100%;"></div>
@@ -215,6 +213,7 @@ The positivity rate is one of the parameters employed by governments to assess w
         </div>
  </figure>
  {{< /rawhtml >}}
+The test-positivity rate is most commonly employed to trace the extent of rare diseases and if the same proportion of a population is being tested over a period, the contagiousness of a disease can also be calculated with the help of this parameter.
 {{< section "end" >}}
 {{< section "begin" >}}
 ## Tests per million
@@ -232,10 +231,7 @@ The positivity rate is one of the parameters employed by governments to assess w
   alt="alt"
   link="link"
  >}}
-Some of the most contested questions regarding the coronavirus pandemic revolve around testing. Are all states testing enough people?
-
-Testing data suggests that there is no strong link between testing rates and fatality rates across countries. However, the analysis suggests that countries that have been able to test more have also been able to ease lockdown restrictions more or earlier. India may not have had to pay a high price for its low levels of testing in terms of fatalities, but the low levels of testing may have led to a much more stringent and prolonged lockdown than in most other parts of the world. Determining tests done per a million people is in theory a better way to discern the proportion of people who are being tested. It does not consider the size of the outbreak in these States. 
-India ranks lower in terms of tests per million when compared to other countries, although it's reasonable given the high population in relative to other nations. A nation wide lockdown was implemented in the initial stages of virus spread, with the intention of slowing down the speed of contagion. However, it's not possible to gain control over the disease just by shutting down the whole country, evident from the fights put forward by other nations. Countries with relatively high testing rates had to impose fewer lockdown restrictions, and have been able to open up more quickly than India. Rapid and continuous testing is the major factor which is gonna count in the end. The state of Kerala had a high test rate initially, which gradually decreased over time. Nevertheless, the initial hardcore efforts helped the state control the case load significantly.
+While it remains true that the number of fatalities has very little to do with low testing rates, countries that effectively tested more people have been able to ease lockdowns earlier than the ones that tested less. Consequently, the lackluster stats of India in terms of testing metrics might not directly have an impact on the mortality rate as one would expect. However, the prolonged lockdown and increment in the severity of the virus spread in certain states despite the social distancing measures could be a linear consequence of a lower testing rate. Accordingly, discovering tests done per a million people is in theory a more dependable approach to determine the proportion of people who are being tested. Nonetheless, the parameter fails to account for the size of the outbreak in the respective states. India ranks lower in terms of tests done per million when compared to other countries, although it's reasonable given the higher population relative to other nations. 
 {{< rawhtml >}}
 <figure class="fullwidth">
   <div id="969b7b1f-9449-4e98-8c65-03c2601477d8" class="plotly-graph-div" style="height:600px; width:100%;"></div>
@@ -256,9 +252,9 @@ India ranks lower in terms of tests per million when compared to other countries
         </div>
 </figure>
 {{< /rawhtml >}}
+With strict social distancing measures implemented in the initial stages of virus spread, the intention of states was to slow down the pace of contagion. However, it's not possible to gain control over the infection just by shutting down the whole country. Rather accelerated and perpetual testing are the chief factors that actually count during the culmination of a lockdown period. The state of Kerala had a high test rate initially, which gradually declined over time. However, their early and effective judgments upheld the state's control over the caseload significantly.
 
-Below is a graph which shows percentage of positives out of total tested against tests per million. This gives us an insight on the number of tests done along with an idea about the outbreak in that state. While glancing over the plot, it's clear how well the state of Jammu Kashmir has done, while also portraying how bad Maharashtra has done. The latter has tested seriously low compared to the former state, while reporting a drastically higher number of percentage in positive cases which indicates the increased outbreak in the state.
-
+The chart below renders the positivity rate against tests per million. This is particularly significant as it provides us with an insight on the measure of tests done while keeping us informed of the outbreak in the state. Plus the sizes of the bubbles in the plot are in proportion to cases recorded per million.
 {{< rawhtml >}}
 <figure class="fullwidth">
       <div id="949a54ba-7c2d-4103-9546-14c842e7e9f1" class="plotly-graph-div" style="height:600px; width:100%;"></div>
@@ -279,6 +275,7 @@ Below is a graph which shows percentage of positives out of total tested against
         </div>
 </figure>
 {{< /rawhtml >}}
+A quick glance over the diagram suggests that the Northern state of Jammu and Kashmir has done really well, keeping the bar of the percentage of positives to a low figure of 1, while also leading in terms of tests per million. However, Maharashtra has a relatively lower count for the parameter in the x-axis with a dramatically increased percentage in positive cases which portrays the enhanced outbreak in the region. Nevertheless, Kerala is one of the states that managed to keep the positivity rate to a low figure of 2% while also testing way lesser in contrast to the above-mentioned states. Although the practice of testing a lower set of people is not an accepted regime when one eye to flatten the curve while dealing with a pandemic, brisk and effective judgments when added with heavy contract tracing the state implemented aided them to recover from the infection swiftly, while also keeping economy balanced for tests.
 {{< section "end" >}}
 {{< section "begin" >}}
 ## Tests per Positive Cases
