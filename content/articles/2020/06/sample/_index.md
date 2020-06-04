@@ -23,6 +23,19 @@ As we enter the month of June in 2020, marking the 6th month into our global con
 {{< section "end" >}}
 {{< section "begin" >}} 
 ## Testing and Positive cases
+{{< figure
+  src="tpm5.png"
+  class="class param"
+  type="margin"
+  label="tpm"
+  title="Tests per million:"
+  label="mn-export-import"
+  caption="It's the total tests done per population in million."
+  attr="Image"
+  attrlink="attribute link"
+  alt="alt"
+  link="link"
+ >}}
 The extent of very different testing regimes of various countries has a profound impact on the confirmed case counts. Nonetheless, with more than two lakh confirmed cases of COVID-19 reported, India ranks amongst the countries that are principally affected due to the coronavirus notwithstanding the immediate and rigid implementation of a nationwide lockdown back in April. 
 Further, spreading those numbers into a hierarchy of a variety of Indian States, Maharashtra takes up the prime spot with an extensive lead in terms of cases recorded. The main task to do when comparing metrics of different variables is to orient oneself. Ergo, the corresponding data of the most affected states are spread into comprehensive graphs below to make sense of the numbers which were provided by the government with minimal effort.
 {{< rawhtml >}}
@@ -109,6 +122,19 @@ The most beneficial element of the log scale is that they readily take the expon
 </figure>
 {{< /rawhtml >}}
 ### Testing
+{{< figure
+  src="tpm5.png"
+  class="class param"
+  type="margin"
+  label="tpm"
+  title="Tests per million:"
+  label="mn-export-import"
+  caption="It's the total tests done per population in million."
+  attr="Image"
+  attrlink="attribute link"
+  alt="alt"
+  link="link"
+ >}}
 The enormous number of cases announced in the country in spite of severe and early judgments for restrictions signifies the defect in the approach various states adopted to tackle the virus. Subsequently, this steers us to the most relevant factor of the disease spread analysis; testing. It was apparent from the struggles of other nations that early testing, isolation, and treatment are the most positive means of lessening the influence of the virus spread regardless of the severity of the lockdown. Nevertheless, some states failed to ramp up testing rates to the demanded figure which rendered the vigorous social distancing measures ineffective. We have accordingly crowdsourced the testing data of various states and the charts below are prepared for obtaining a general idea regarding the testing trends of the most affected states.
 {{< rawhtml >}}
 <figure class="fullwidth">
@@ -153,7 +179,20 @@ The enormous number of cases announced in the country in spite of severe and ear
 {{< section "end" >}}
 {{< section "begin" >}}
 ## Test Positivity Rate
-
+{{< figure
+  src="tpm5.png"
+  class="class param"
+  type="margin"
+  label="tpm"
+  title="Tests per million:"
+  label="mn-export-import"
+  caption="It's the total tests done per population in million."
+  attr="Image"
+  attrlink="attribute link"
+  alt="alt"
+  link="link"
+ >}}
+ 
 The positivity rate is one of the parameters employed by governments to assess whether a state is fit to be opened for normal economic activities or should continue to remain under lockdown. Case fatality and recovery rate, the latter read as a ratio with active cases, are other indicators. High mortality and positivity rates are indicative that a state is only testing the sickest and not screening enough people for Covid-19 symptoms. Sufficient teting is the key to containment of the pandemic. Due to limited testing, as of March 2020 no countries had reliable data on the prevalence of the virus in their population. 
 
 {{< rawhtml >}}
@@ -217,6 +256,7 @@ India ranks lower in terms of tests per million when compared to other countries
         </div>
 </figure>
 {{< /rawhtml >}}
+
 Below is a graph which shows percentage of positives out of total tested against tests per million. This gives us an insight on the number of tests done along with an idea about the outbreak in that state. While glancing over the plot, it's clear how well the state of Jammu Kashmir has done, while also portraying how bad Maharashtra has done. The latter has tested seriously low compared to the former state, while reporting a drastically higher number of percentage in positive cases which indicates the increased outbreak in the state.
 
 {{< rawhtml >}}
@@ -239,13 +279,22 @@ Below is a graph which shows percentage of positives out of total tested against
         </div>
 </figure>
 {{< /rawhtml >}}
-
-
-ffdyfhjkl
-
 {{< section "end" >}}
 {{< section "begin" >}}
 ## Tests per Positive Cases
+{{< figure
+  src="tpm5.png"
+  class="class param"
+  type="margin"
+  label="tpm"
+  title="Tests per million:"
+  label="mn-export-import"
+  caption="It's the total tests done per population in million."
+  attr="Image"
+  attrlink="attribute link"
+  alt="alt"
+  link="link"
+ >}}
 
 Kerala's relatively better performance is highlighted in this graph that compares tests per case over time. Maharashtra, Gujarat, Delhi and M.P. fare among the worse off States in this metric with relatively higher cases and lower tests per confirmed case. Countries affected by the virus are divided into two groups (lower - marked in green, and higher case loads - marked in red). Evidently most countries that have tested more over time have reduced their case loads significantly compared to those that have not tested enough. Despite having among the most stringent lockdowns, cases in India have continued to rise steadily and fast. Clearly, the lockdown has not had as major an impact as high testing rates have, for other countries that have managed to flatten the infection curves.
 
