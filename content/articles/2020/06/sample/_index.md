@@ -216,7 +216,7 @@ The test-positivity rate is most commonly employed to trace the extent of rare d
 ## Tests per million
 {{% marginnote "Note" %}}India ranks lower in terms of tests done per million when compared to other countries, although it's reasonable given the higher population relative to other nations.{{% /marginnote %}}
 {{< figure
-  src="tpm.png"
+  src="tpm1.png"
   class="class param"
   type="margin"
   label="tpm"
@@ -224,7 +224,7 @@ The test-positivity rate is most commonly employed to trace the extent of rare d
   label="mn-export-import"
   caption="It's the total tests done per population in million."
   alt="alt"
-  link="tpm.png"
+  link="link"
  >}}
 While it remains true that the number of fatalities has very little to do with low testing rates, countries that effectively tested more people have been able to ease lockdowns earlier than the ones that tested less. Consequently, the lackluster stats of India in terms of testing metrics might not directly have an impact on the mortality rate as one would expect. However, the prolonged lockdown and increment in the severity of the virus spread in certain states despite the social distancing measures could be a linear consequence of a lower testing rate. Accordingly, discovering tests done per a million people is in theory a more dependable approach to determine the proportion of people who are being tested. Nonetheless, the parameter fails to account for the size of the outbreak in the respective states.
 
