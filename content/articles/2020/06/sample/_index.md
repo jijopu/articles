@@ -31,10 +31,7 @@ As we enter the month of June in 2020, marking the 6th month into our global con
   title="Tests per million:"
   label="mn-export-import"
   caption="It's the total tests done per population in million."
-  attr="Image"
-  attrlink="attribute link"
-  alt="alt"
-  link="link"
+  link="tpm5.png"
  >}}
 The extent of very different testing regimes of various countries has a profound impact on the confirmed case counts. Nonetheless, with more than two lakh confirmed cases of COVID-19 reported, India ranks amongst the countries that are principally affected due to the coronavirus notwithstanding the immediate and rigid implementation of a nationwide lockdown back in April. 
 Further, spreading those numbers into a hierarchy of a variety of Indian States, Maharashtra takes up the prime spot with an extensive lead in terms of cases recorded. The main task to do when comparing metrics of different variables is to orient oneself. Ergo, the corresponding data of the most affected states are spread into comprehensive graphs below to make sense of the numbers which were provided by the government with minimal effort.
@@ -187,10 +184,8 @@ The enormous number of cases announced in the country in spite of severe and ear
   title="Tests per million:"
   label="mn-export-import"
   caption="It's the total tests done per population in million."
-  attr="Image"
-  attrlink="attribute link"
   alt="alt"
-  link="link"
+  link="tpm5.png"
  >}}
 When having to evaluate whether a region must continue its restrictive measures or ease up the lockdown, one of the key parameters that gets scrutinized is the test-positivity rate in the region. Examining the charts plotted for the positivity rate, we understand that the state of Maharashtra records a high figure of 14%. Such a high test-positivity rate proposes that the state is not testing everyone who has been infected with the virus, for it shows that hospitals are testing only people who exhibit a very high probability of carrying the virus. This also suggests that citizens with symptoms ranging from mild to none are not accounted for testing. States which adopt a much more extensive testing strategy are expected to have a significantly lower positivity rate as they come across numerous people who aren't infected with the deadly virus. While a few states struggle with higher percent of positivity rate, Andhra Pradesh has efficiently brought it down below 1%.
 {{< rawhtml >}}
@@ -228,10 +223,8 @@ The test-positivity rate is most commonly employed to trace the extent of rare d
   title="Tests per million:"
   label="mn-export-import"
   caption="It's the total tests done per population in million."
-  attr="Image"
-  attrlink="attribute link"
   alt="alt"
-  link="link"
+  link="tpm5.png"
  >}}
 {{% marginnote "Note" %}}India ranks lower in terms of tests done per million when compared to other countries, although it's reasonable given the higher population relative to other nations.{{% /marginnote %}}
 While it remains true that the number of fatalities has very little to do with low testing rates, countries that effectively tested more people have been able to ease lockdowns earlier than the ones that tested less. Consequently, the lackluster stats of India in terms of testing metrics might not directly have an impact on the mortality rate as one would expect. However, the prolonged lockdown and increment in the severity of the virus spread in certain states despite the social distancing measures could be a linear consequence of a lower testing rate. Accordingly, discovering tests done per a million people is in theory a more dependable approach to determine the proportion of people who are being tested. Nonetheless, the parameter fails to account for the size of the outbreak in the respective states.
