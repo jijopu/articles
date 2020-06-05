@@ -24,13 +24,13 @@ As we enter the month of June in 2020, marking the 6th month into our global con
 {{< section "begin" >}} 
 ## Testing and Positive cases
 {{< figure
-  src="tpm5.png"
+  src="positivesbar.png"
   class="class param"
   type="margin"
   label="tpm"
-  title="Tests per million:"
+  title="Confirmed Cases"
   label="mn-export-import"
-  caption="It's the total tests done per population in million."
+  caption=""
   link="tpm5.png"
  >}}
 The extent of very different testing regimes of various countries has a profound impact on the confirmed case counts. Nonetheless, with more than two lakh confirmed cases of COVID-19 reported, India ranks amongst the countries that are principally affected due to the coronavirus notwithstanding the immediate and rigid implementation of a nationwide lockdown back in April. 
@@ -120,13 +120,13 @@ The most beneficial element of the log scale is that they readily take the expon
 {{< /rawhtml >}}
 ### Testing
 {{< figure
-  src="tpm5.png"
+  src="testsbar.png"
   class="class param"
   type="margin"
   label="tpm"
-  title="Tests per million:"
+  title="Total Tested"
   label="mn-export-import"
-  caption="It's the total tests done per population in million."
+  caption=""
   attr="Image"
   attrlink="attribute link"
   alt="alt"
@@ -177,13 +177,13 @@ The enormous number of cases announced in the country in spite of severe and ear
 {{< section "begin" >}}
 ## Test-Positivity Rate
 {{< figure
-  src="tpm5.png"
+  src="tprbar.png"
   class="class param"
   type="margin"
   label="tpm"
-  title="Tests per million:"
+  title="Test-Positivity Rate"
   label="mn-export-import"
-  caption="It's the total tests done per population in million."
+  caption=""
   alt="alt"
   link="tpm5.png"
  >}}
@@ -277,13 +277,13 @@ A quick glance over the diagram suggests that the Northern state of Jammu and Ka
 {{< section "begin" >}}
 ## Tests per Positive Cases
 {{< figure
-  src="tpm5.png"
+  src="tpcbar.png"
   class="class param"
   type="margin"
   label="tpm"
-  title="Tests per million:"
+  title="Tests per cases:"
   label="mn-export-import"
-  caption="It's the total tests done per population in million."
+  caption="It's the total tests done for encountering a positive case."
   attr="Image"
   attrlink="attribute link"
   alt="alt"
