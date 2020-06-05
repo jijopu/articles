@@ -1,23 +1,33 @@
 <!-- Load MathJax, if necessary. -->
-{{ if or .Params.math .IsHome }}
-  {{ partial "math.html" . }}
-{{ end }}
+{{ if or .Params.math .IsHome }} {{ partial "math.html" . }} {{ end }}
 
 <!-- Load MathJax, if necessary. -->
-{{ if or .Params.plotly .IsHome }}
-  {{ partial "plotly.html" . }}
-{{ end }}
+{{ if or .Params.plotly .IsHome }} {{ partial "plotly.html" . }} {{ end }}
 
 <!-- Syntax highlighting -->
 <!-- {{ partial "highlight.html" . }} -->
 
 <!-- Pure css -->
-<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/yui/3.18.0/cssbase/cssbase-min.css"
+/>
 <!--[if lte IE 8]>
-    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-old-ie-min.css">
+  <link
+    rel="stylesheet"
+    href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-old-ie-min.css"
+  />
 <![endif]-->
 <!--[if gt IE 8]><!-->
-    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/yui/3.18.0/cssgrids-base/cssgrids-base-min.css"
+/>
+
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/yui/3.18.0/cssgrids-responsive/cssgrids-responsive-min.css"
+/>
 <!--<![endif]-->
 
 <!-- Fonts -->
@@ -25,14 +35,18 @@
 <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface"> -->
 <!-- <link href='//fonts.googleapis.com/css?family=Raleway:400,200,100,700,300,500,600,800' rel='stylesheet' type='text/css'> -->
 
-<link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
+<link
+  href="https://fonts.googleapis.com/css2?family=Cabin&display=swap"
+  rel="stylesheet"
+/>
 
 <!-- Font Awesome -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<link
+  rel="stylesheet"
+  href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+/>
 
 <!-- Main CSS file based on Pure blog layout -->
-<link rel="stylesheet" href="{{ "/css/tufte.css" | absURL }}">
-<link rel="stylesheet" href="{{ "/css/hugo-tufte.css" | absURL }}">
+<link rel="stylesheet" href="{{ "/css/tufte.css" | absURL }}"> 
+<link rel="stylesheet" href="{{ "/css/hugo-tufte.css" | absURL }}"> 
 <link rel="stylesheet" href="{{ "/css/hugo-tufte-override.css" | absURL }}">
-
-
