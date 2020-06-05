@@ -249,7 +249,9 @@ With strict social distancing measures implemented in the initial stages of viru
         </div>
 </figure>
 {{< /rawhtml >}}
+
 The chart below renders the positivity rate against tests per million. This is particularly significant as it provides us with an insight on the measure of tests done while keeping us informed of the outbreak in the state. Plus the sizes of the bubbles in the plot are in proportion to cases recorded per million.
+
 {{< rawhtml >}}
 <figure class="fullwidth">
       <div id="b9042329-4b46-43da-84a0-45c7c1562368" class="plotly-graph-div" style="height:600px; width:100%;"></div>
@@ -289,7 +291,7 @@ A quick glance over the diagram suggests that the Northern state of Jammu and Ka
   alt="alt"
   link="link"
  >}}
-Tests conducted for each case is also a useful metric to compare each state. Inspecting the graph, it's evident that Andhra Pradesh stands above all as their tests per case curve show a positive linear curve. Higher values for tests per case indicates an improved condition as more tests are required to find a positive case. Karnataka comes up next when it comes to keeping the tests per case ratio healthy.
+Tests conducted for each case is also a useful metric to compare each state. Inspecting the graph, it's evident that Andhra Pradesh stands above all as their tests per case curve show a positive linear curve. Higher values for tests per case indicates an improved condition as more tests are required to find a positive case. Karnataka comes up next when it comes to keeping the tests per case ratio healthy. In comparison, Maharashtra showcases poor advancements as evident from the steep downward slope the state registers. By the end of May, the state records a positive case in 7 tests which's by far the lowest. This steers us to a perception that testing policies of the state requires a bit of amendments.
 {{< rawhtml >}}
 <figure class="fullwidth">
                 <div id="518adbf7-43d7-4d33-92e8-8cd8668006f2" class="plotly-graph-div" style="height:600px; width:100%;"></div>
@@ -314,6 +316,6 @@ Tests conducted for each case is also a useful metric to compare each state. Ins
 {{< section "begin" >}}
 ## Conclusion
 
-A high test rate for COVID19 has emerged as the sureshot way of reducing the impact of the pandemic across the world. Lockdowns have helped in physical distancing, but a sure way of limiting the growth of the infection spread has been to test significantly, isolate infected patients and treat them. Within India, States like Kerala had tested at a high rate relative to its population initially (despite following the same ICMR guidelines as a protocol for identifying test cases). Kerala managed to do so by maximising contact tracing and local surveillance. This early testing strategy helped the State to reduce the total number of infections over time. Other States/UTs such as Maharashtra, Gujarat, Delhi, Tamil Nadu and Madhya Pradesh have meanwhile experienced higher case loads despite increasing testing over time, after having missed the bus early. Only a significant increase in testing and isolation of positive cases will help, short of other possibilities such as increased immunity or the availability of a vaccine. In Kerala's case, a new influx of migrants from other States and countries has made it imperative for the State to also focus on ramped up testing to address the new wave of infections.
+While the social distancing offered by lockdowns have a huge positive impact on controlling the contagion of the infection spread, it's evident from the metrics we've dealt with that testing significantly, and treating the affected in isolation is the only way out of the maze. By implementing better contact tracing mechanisms and local surveillance, the southern state of Kerala has portrayed that the disease spread can be brought under control at this stage without vaccines. But with the virus deeply rooted in the majority of the states, only a significant increase in the testing rates and isolations of the affected would be of any aid. Regardless, with India and Australia having vowed cooperation in terms of boosting their science, technology, and research sectors to revamp the responses against the deadly virus, it's hoped that the dim circumstances of today shall soon be improved even if the production of a vaccine gets delayed.
 
 {{< section "end" >}}
