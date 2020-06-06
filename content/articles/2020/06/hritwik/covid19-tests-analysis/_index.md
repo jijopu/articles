@@ -5,7 +5,7 @@ meta : true
 math : false
 title : "COVID-19 India: An Exposition Of Various Test Parameters"
 subtitle : "Article"
-toc : false
+toc : true
 categories : ["COVID-19", "India", "Data Stories"]
 layout: article
 plotly: true
@@ -15,7 +15,7 @@ An overview of the coronavirus outbreak in India.
 {{< section "begin" >}} 
 ## Abstract
 
-This article is presented to provide the audience with currently available data of COVID-19 acquired from 10th of April to 31st of May, published by the respective state governments as a part of the existing global fight against the coronavirus. It showcases those data in a couple of interactive plots along with a few bar charts to maximise the scale of understanding. The report further intents to spread awareness about the progress of the virus spread as well as the measures taken against it by the most affected states, by analysing a few key test parameters.
+This article is presented to provide the audience with currently available data of COVID-19 acquired from 10th of April to 31st of May, published by the respective state governments and other sources as a part of the existing global fight against the coronavirus. It showcases those data in a couple of interactive plots along with a few bar charts to maximise the scale of understanding. The report further intends to spread awareness about the progress of the virus spread as well as the measures taken against it by the most affected states, by analysing a few key test parameters.
 {{< section "end" >}} 
 {{< section "begin" >}} 
 ## Introduction
