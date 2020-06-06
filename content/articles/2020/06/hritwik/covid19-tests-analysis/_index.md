@@ -3,23 +3,25 @@ author : HRITWIK NE
 date : 2019-06-03
 meta : true
 math : false
-title : "COVID-19"
-subtitle : "Some set of articles"
+title : "COVID-19 In Indian States: An Exposition Of Various Test Parameters"
 toc : false
 categories : ["COVID-19", "India", "Data Stories"]
 layout: article
 plotly: true
 ---
 
-This is a project organised by CODD-K.
-
+An overview of the coronavirus outbreak in India.
+{{< section "begin" >}} 
+## Abstract
+This article is presented to provide the audience with currently available data of COVID-19 acquired from 10th of April to 31st of May, published by the respective state governments as a part of the existing global fight against the coronavirus. It showcases those data in a couple of interactive plots along with a few bar charts to maximise the scale of understanding. The report further intents to spread awareness about the progress of the virus spread as well as the measures taken against it by the most affected states, by analysing a few key test parameters.
+{{< section "end" >}} 
 {{< section "begin" >}} 
 ## Introduction
 
 {{% epigraph pre="Leirion Gaylor Baird - Mayor, Lincoln" %}}
 We face an extraordinary moment in our history, one that is bringing with it extraordinary disruption to our daily lives.
 {{% /epigraph %}}
-As we enter the month of June in 2020, marking the 6th month into our global confrontation against COVID-19, numerous lives have already succumbed to the life-threatening sickness. The respiratory disease caused by a coronavirus which started spreading from Wuhan in China during the final stages of 2019, has disrupted the daily lives of the worldwide population in a short time. The uncertainty the pandemic has brought into the minds of the citizens since then in a variety of aspects is spreading a discomforting spell, which when left unattended becomes as deadly as the virus itself. Therefore, this website is built for the public with the sole intention of spreading awareness and insights along with my subtle analysis concerning the disease spread in the Indian States, with corresponding data as accurate as possible. However, the audience is expected to have a firm awareness that all the data we currently have regarding COVID-19 universally is imperfect.
+As we enter the month of June in 2020, marking the 6th month into our global confrontation against COVID-19, numerous lives have already succumbed to the life-threatening sickness. The respiratory disease caused by a coronavirus which started spreading from Wuhan in China during the final stages of 2019, has disrupted the daily lives of the worldwide population in such a short duration. The uncertainty the pandemic has brought into the minds of the citizens since then in a variety of aspects is spreading a discomforting spell, which when left unattended becomes as deadly as the virus itself. Therefore, this website is built for the public with the sole intention of spreading awareness and insights along with my subtle analysis concerning the disease spread in Indian States, with corresponding data as accurate as possible. However, the audience is expected to have a firm awareness that all the data we currently have regarding COVID-19 universally is imperfect.
 {{< section "end" >}}
 {{< section "begin" >}} 
 ## Testing and Positive cases
@@ -34,7 +36,8 @@ As we enter the month of June in 2020, marking the 6th month into our global con
   link="tpm5.png"
  >}}
 The extent of very different testing regimes of various countries has a profound impact on the confirmed case counts. Nonetheless, with more than two lakh confirmed cases of COVID-19 reported, India ranks amongst the countries that are principally affected due to the coronavirus notwithstanding the immediate and rigid implementation of a nationwide lockdown back in April. 
-Further, spreading those numbers into a hierarchy of a variety of Indian States, Maharashtra takes up the prime spot with an extensive lead in terms of cases recorded. The main task to do when comparing metrics of different variables is to orient oneself. Ergo, the corresponding data of the most affected states are spread into comprehensive graphs below to make sense of the numbers which were provided by the government with minimal effort.
+
+Further, spreading those numbers into a hierarchy of a variety of Indian States, Maharashtra takes up the prime spot with an extensive lead in terms of cases recorded. The main task to do when comparing metrics of different variables is to orient oneself, which's why the corresponding data of the most affected states are spread into comprehensive graphs below to make sense of the numbers which were provided by the government with minimal effort.
 {{< rawhtml >}}
 <figure class="fullwidth">
      <div id="ab82574e-d748-4450-b25c-e48d790d515b" class="plotly-graph-div" style="height:600px; width:100%;"></div>
@@ -76,8 +79,8 @@ Further, spreading those numbers into a hierarchy of a variety of Indian States,
 </figure>
 {{< /rawhtml >}}
 ### Logarithmic scales
-The statistics, when plotted against a logarithmic axis, renders much more of a linear curve. The ultimate objective of this implementation is to have better readability of data which increases exponentially. For instance, a virus spread like what we're dealing with here. 
-The most beneficial element of the log scale is that they readily take the exponentiality into account.  Hence by comparing the slopes of two lines, we're enabled to examine the disease spread at a primitive stage with those that are much more advanced, despite having quite distinct estimates of cases. A curve of a virus spread on a logarithmic scale looks like a linear line that flattens in the end as its rate of spread declines which is evident from the curve of Kerala before the inbound of immigrants. Emphasizing on the exponential nature of the spread, the curve makes it easier to see where one is today and where one would be in a couple of days.
+The data, when plotted against a logarithmic axis, renders much more of a linear curve. The ultimate objective of this implementation is to have better readability of data which increases exponentially. For instance, a virus spread like what we're dealing with here. 
+The most beneficial element of the log scale is that they readily take the exponentiality into account.  Hence by comparing the slopes of two lines, we're enabled to examine the disease spread at a primitive stage with those that are much more advanced, despite having quite distinct estimates of cases. A curve of a virus spread on a logarithmic scale looks like a linear line that flattens in the end as its rate of spread declines which is evident from the curve of Kerala in the plot below before the inbound of migrants. Emphasizing on the exponential nature of the spread, the curve makes it easier to see where one is today and where one would be in a couple of days.
 {{< rawhtml >}}
 <figure class="fullwidth">
      <div id="12d95882-d14d-46a0-aaf3-a2c7225cdb00" class="plotly-graph-div" style="height:600px; width:100%;"></div>
@@ -132,7 +135,7 @@ The most beneficial element of the log scale is that they readily take the expon
   alt="alt"
   link="link"
  >}}
-The enormous number of cases announced in the country in spite of severe and early judgments for restrictions signifies the defect in the approach various states adopted to tackle the virus. Subsequently, this steers us to the most relevant factor of the disease spread analysis; testing. It was apparent from the struggles of other nations that early testing, isolation, and treatment are the most positive means of lessening the influence of the virus spread regardless of the severity of the lockdown. Nevertheless, some states failed to ramp up testing rates to the demanded figure which rendered the vigorous social distancing measures ineffective. We have accordingly crowdsourced the testing data of various states and the charts below are prepared for obtaining a general idea regarding the testing trends of the most affected states.
+The enormous number of cases announced in the country in spite of severe and early judgments for restrictions, signifies the defect in the approach various states adopted to tackle the virus. Subsequently, this steers us to the most relevant factor of the disease spread analysis; testing. It was apparent from the struggles of other nations that early testing, isolation, and treatment are the most positive means of lessening the influence of the virus spread regardless of the severity of the lockdown. Nevertheless, some states failed to ramp up testing rates to the demanded figure which rendered the vigorous social distancing measures ineffective. We have accordingly crowdsourced the testing data of various states and the charts below are prepared for obtaining a general idea regarding the testing trends of the most affected states.
 {{< rawhtml >}}
 <figure class="fullwidth">
       <div id="2a2ad1c0-0616-4766-8d08-92d9df674629" class="plotly-graph-div" style="height:600px; width:100%;"></div>
@@ -226,9 +229,9 @@ The test-positivity rate is most commonly employed to trace the extent of rare d
   alt="alt"
   link="link"
  >}}
-While it remains true that the number of fatalities has very little to do with low testing rates, countries that effectively tested more people have been able to ease lockdowns earlier than the ones that tested less. Consequently, the lackluster stats of India in terms of testing metrics might not directly have an impact on the mortality rate as one would expect. However, the prolonged lockdown and increment in the severity of the virus spread in certain states despite the social distancing measures could be a linear consequence of a lower testing rate. Accordingly, discovering tests done per a million people is in theory a more dependable approach to determine the proportion of people who are being tested. Nonetheless, the parameter fails to account for the size of the outbreak in the respective states. 
+While it remains true that the number of fatalities has very little to do with low testing rates, countries that effectively tested more people have been able to ease lockdowns earlier than the ones that tested less. Consequently, the lacklustre stats of India in terms of testing metrics might not directly have an impact on the mortality rate as one would expect. However, the prolonged lockdown and increment in the severity of the virus spread in certain states despite the social distancing measures could be a linear consequence of a lower testing rate. Accordingly, discovering tests done per a million people is in theory a more dependable approach to determine the proportion of people who are being tested, especially for comparisons. Nonetheless, the parameter fails to account for the size of the outbreak in the respective states. 
 
-With strict social distancing measures implemented in the initial stages of virus spread, the intention of states was to slow down the pace of contagion. However, it's not possible to gain control over the infection just by shutting down the whole country. Rather accelerated and perpetual testing are the chief factors that actually count during the culmination of a lockdown period. The state of Kerala had a high test rate initially, which gradually declined over time. However, their early and effective judgments upheld the state's control over the caseload significantly.
+With strict social distancing measures implemented in the initial stages of virus spread, the states intended to slow down the pace of contagion. However, it's not possible to gain control over the infection just by shutting down the whole country. Rather accelerated and perpetual testing are the chief factors that count during the culmination of a lockdown period. The state of Kerala had a high test rate initially, which gradually declined over time. However, their early and effective judgments upheld the state's control over the caseload significantly. While Maharashtra lead significantly in terms of tests done, it can be seen from the charts that the state trails way behind when it comes to tests done per million, which can be attributed to the increased population in the region.
 {{< rawhtml >}}
 <figure class="fullwidth">
   <div id="66e39982-8da8-44e6-8fe9-e11f57207cbf" class="plotly-graph-div" style="height:600px; width:100%;"></div>
@@ -273,7 +276,7 @@ The chart below renders the positivity rate against tests per million. This is p
 </figure>
 {{< /rawhtml >}}
 
-A quick glance over the diagram suggests that the Northern state of Jammu and Kashmir has done really well, keeping the bar of the percentage of positives to a low figure of 1, while also leading in terms of tests per million. However, Maharashtra has a relatively lower count for the parameter in the x-axis with a dramatically increased percentage in positive cases which portrays the enhanced outbreak in the region. Nevertheless, Kerala is one of the states that managed to keep the positivity rate to a low figure of 2% while also testing way lesser in contrast to the above-mentioned states. Although the practice of testing a lower set of people is not an accepted regime when one eye to flatten the curve while dealing with a pandemic, brisk and effective judgments when added with heavy contract tracing the state implemented aided them to recover from the infection swiftly, while also keeping economy balanced for tests.
+A glance over the diagram suggests that the Northern state of Jammu and Kashmir has done well, keeping the bar of the percentage of positives to a low figure of 1, while also leading in terms of tests per million. However, Maharashtra has a relatively lower count for the parameter in the x-axis with a dramatically increased percentage in positive cases which portrays the enhanced outbreak in the region. Nevertheless, Kerala is one of the states that managed to keep the positivity rate to a low figure of 2% while also testing way lesser in contrast to the above-mentioned states. Although the practice of testing a lower set of people is not an accepted regime when one eye to flatten the curve while dealing with a pandemic, the brisk and effective judgments when added with heavy contract tracing the state implemented aided them to recover from the infection swiftly, while also keeping economy balanced for tests.
 
 {{< section "end" >}}
 {{< section "begin" >}}
@@ -291,7 +294,7 @@ A quick glance over the diagram suggests that the Northern state of Jammu and Ka
   alt="alt"
   link="link"
  >}}
-Tests conducted for each case is also a useful metric to compare each state. Inspecting the graph, it's evident that Andhra Pradesh stands above all as their tests per case curve show a positive linear curve. Higher values for tests per case indicates an improved condition as more tests are required to find a positive case. Karnataka comes up next when it comes to keeping the tests per case ratio healthy. In comparison, Maharashtra showcases poor advancements as evident from the steep downward slope the state registers. By the end of May, the state records a positive case in 7 tests which's by far the lowest. This steers us to a perception that testing policies of the state requires a bit of amendments.
+Tests conducted for each case is also a useful metric to compare each state. Inspecting the graph, it's evident that Andhra Pradesh stands above all as their tests per case curve show a positive nature. Higher values for tests per case indicates an improved condition as more tests are required to find a positive case. Karnataka comes up next when it comes to keeping the tests per case ratio healthy. In comparison, Maharashtra showcases poor advancements as evident from the steep downward slope the state registers. By the end of May, the state records a positive case in 7 tests which's by far the lowest. This steers us to a perception that testing policies of the state requires a bit of amendments.
 {{< rawhtml >}}
 <figure class="fullwidth">
                 <div id="518adbf7-43d7-4d33-92e8-8cd8668006f2" class="plotly-graph-div" style="height:600px; width:100%;"></div>
