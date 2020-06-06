@@ -278,7 +278,7 @@ The chart below renders the positivity rate against tests per million. This is p
 </figure>
 {{< /rawhtml >}}
 
-A glance over the diagram suggests that the Northern state of Jammu and Kashmir has done well, keeping the bar of the percentage of positives to a low figure of 1, while also leading in terms of tests per million. However, Maharashtra has a relatively lower count for the parameter in the x-axis with a dramatically increased percentage in positive cases which portrays the enhanced outbreak in the region. Nevertheless, Kerala is one of the states that managed to keep the positivity rate to a low figure of 2% while also testing way lesser in contrast to the above-mentioned states. Although the practice of testing a lower set of people is not an accepted regime when one eye to flatten the curve while dealing with a pandemic, the brisk and effective judgments when added with heavy contract tracing the state implemented aided them to recover from the infection swiftly, while also keeping economy balanced for tests.
+A glance over the diagram suggests that the Union Territory of Jammu and Kashmir has done well, keeping the bar of the percentage of positives to a low figure of 1, while also leading in terms of tests per million. However, Maharashtra has a relatively lower count for the parameter in the x-axis with a dramatically increased percentage in positive cases which portrays the enhanced outbreak in the region. Nevertheless, Kerala is one of the states that managed to keep the positivity rate to a low figure of 2% while also testing way lesser in contrast to the above-mentioned states. Although the practice of testing a lower set of people is not an accepted regime when one eye to flatten the curve while dealing with a pandemic, the brisk and effective judgments when added with heavy contract tracing the state implemented aided them to recover from the infection swiftly, while also keeping economy balanced for tests.
 
 {{< section "end" >}}
 {{< section "begin" >}}
@@ -325,6 +325,13 @@ While the social distancing offered by lockdowns have a huge positive impact on 
 
 {{< section "end" >}}
 {{< section "begin" >}}
-### Acknowledgement
+## Acknowledgement
 This study is acknowledged by CODD-K.
 {{< section "end" >}}
+
+## References
+1. [CODD-K Kerala Dataset](https://docs.google.com/spreadsheets/d/e/2PACX-1vQU9eLCMT0XwWnoxV_LkyCkxMcPYO7z7ULdODoUFgcdzp48pgGpGrVZFXvraXYvUioVRsQgQDU_pQyI/pubhtml)
+2. [COVID India Dashboard](https://www.covid19india.org/)
+3. [Financial Times](https://www.ft.com/video/9a72a9d4-8db1-4615-8333-4b73ae3ddff8)
+4. [The Atlantic](https://www.theatlantic.com/technology/archive/2020/04/us-coronavirus-outbreak-out-control-test-positivity-rate/610132/)
+5. [The Hindu](https://www.thehindu.com/data/data-are-states-testing-enough-compared-to-the-size-of-their-coronavirus-outbreaks/article31610777.ece)
